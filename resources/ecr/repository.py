@@ -1,0 +1,8 @@
+from resources.base_resources import BaseArn
+
+
+class repository(BaseArn):
+    def __init__(self, arn):
+        super().__init__(arn)
+        self.deletion_method = "ecr delete-repository --repository-name"
+

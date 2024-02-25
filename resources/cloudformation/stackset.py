@@ -1,0 +1,8 @@
+from resources.base_resources import BaseArn
+
+
+class stackset(BaseArn):
+    def __init__(self, arn):
+        super().__init__(arn)
+        self.deletion_method = "cloudformation delete-stack-set --stack-set-name"
+
