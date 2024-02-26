@@ -27,7 +27,7 @@ class ResourceDeleter(object):
             aws_resource.delete_resource()
 
     def delete_resources(self):
-        to_delete = get_resources_to_delete(self._arn_list_to_delete, self._resource_classes)
+        to_delete = self._get_resources_to_delete()
 
         print("\n1) First, removing all the resources with no dependencies...")
         for key, ress in to_delete.items():
@@ -45,7 +45,11 @@ class ResourceDeleter(object):
                     self._ask_user_approval_before_deletion(res_arn)
                     self._delete_aws_resource(res_arn)
 
-    def get_resources_to_delete(self):
+    # This function will create a map of the form:
+    # { resourceA_class_name: [resourceA_object_1, resourceA_object_2, ...],
+    # resourceB_class_name: [resourceB_object_1],
+    # ... }
+    def _get_resources_to_delete(self):
         map_of_resources_to_delete = {}
 
         for arn in self._arn_list_to_delete:
