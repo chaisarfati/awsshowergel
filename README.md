@@ -1,9 +1,10 @@
 <p align="center">
-      <img alt="AWSweeper" src="https://github.com/chaisarfati/awsshowergel/blob/master/img/logo.png" height="150" />
-    <h2 align="center">AWSshowergel</h2>
+    <img alt="awsweeper" src="https://github.com/chaisarfati/awsshowergel/blob/master/img/logo.png" height="150" />
+    <h2 align="center">awsshowergel</h2>
+    <p align="center">awsshowergel is a command-line tool for managing AWS resources with ease and simplicity.</p>
+
 </p>
 
-awsshowergel is a command-line tool for managing AWS resources with ease and simplicity.
 
 ## How to Download
 
