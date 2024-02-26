@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea780825-7e8d-4998-887a-50623cdd1740" name="Changes" comment="+ README.md, MPL LICENSE.md">
+    <list default="true" id="ea780825-7e8d-4998-887a-50623cdd1740" name="Changes" comment="~ dynamic_import_classes.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arn_retriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/arn_retriever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_import_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_import_classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource_deleter.py" beforeDir="false" afterPath="$PROJECT_DIR$/resource_deleter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
       <recent name="C:\Users\chai.sarfati\PycharmProjects\awsshowergel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cmp">
+  <component name="RunManager" selected="Python.compile">
     <configuration name="cmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="awsshowergel" />
       <option name="ENV_FILES" value="" />
@@ -136,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cmp" />
         <item itemvalue="Python.compile" />
+        <item itemvalue="Python.cmp" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708339493312</updated>
-      <workItem from="1708339556236" duration="103570000" />
+      <workItem from="1708339556236" duration="103898000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed base class and cleanup">
       <option name="closed" value="true" />
@@ -174,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708940829376</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="~ dynamic_import_classes.py">
+      <option name="closed" value="true" />
+      <created>1708951104233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708951104233</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,11 +187,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Renamed base class and cleanup" />
     <MESSAGE value="+ README.md, MPL LICENSE.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ README.md, MPL LICENSE.md" />
+    <MESSAGE value="~ dynamic_import_classes.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ dynamic_import_classes.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/awsshowergel$main.coverage" NAME="main Coverage Results" MODIFIED="1708609669217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/awsshowergel$compile.coverage" NAME="compile Coverage Results" MODIFIED="1708949247105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/awsshowergel$compile.coverage" NAME="compile Coverage Results" MODIFIED="1708951122863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/awsshowergel$cmp.coverage" NAME="cmp Coverage Results" MODIFIED="1708950526474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -10,11 +10,9 @@ def build_resource_to_class_map():
 
     # Iterate over modules in the package
     package = importlib.import_module(resource_dir)
-    print(f"package is {package}")
 
     # Get the package path
     package_path = package.__path__[0]
-    print(f"package path {package}")
 
 
     for importer, modname, ispkg in pkgutil.walk_packages(path=[package_path], prefix=package.__name__ + '.'):
