@@ -1,4 +1,4 @@
-import re
+from sys import exit
 
 from arn_retriever import ArnParser
 
