@@ -1,9 +1,9 @@
-from resources.base_resources import BaseArn
+from resources.base_resources import BaseAwsResource
 from resources.ec2.subnet import subnet
 from resources.ec2.routetable import routetable
 
 
-class vpc(BaseArn):
+class vpc(BaseAwsResource):
     DEPENDENT_ON_RESOURCES = [subnet, routetable]
 
     def __init__(self, arn):

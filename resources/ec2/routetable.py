@@ -1,8 +1,8 @@
-from resources.base_resources import BaseArn
+from resources.base_resources import BaseAwsResource
 from resources.ec2.subnet import subnet
 
 
-class routetable(BaseArn):
+class routetable(BaseAwsResource):
     DEPENDENT_ON_RESOURCES = [subnet]
 
     def __init__(self, arn):

@@ -1,10 +1,10 @@
 import json
 import subprocess
 
-from resources.base_resources import BaseArn
+from resources.base_resources import BaseAwsResource
 
 
-class sqs(BaseArn):
+class sqs(BaseAwsResource):
     def __init__(self, arn):
         super().__init__(arn)
         self.deletion_method = "sqs delete-queue --queue-url"

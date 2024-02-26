@@ -1,8 +1,8 @@
-from resources.base_resources import BaseArn
+from resources.base_resources import BaseAwsResource
 from resources.ec2.snapshot import snapshot
 
 
-class volume(BaseArn):
+class volume(BaseAwsResource):
 
     DEPENDENT_ON_RESOURCES = [snapshot]
 

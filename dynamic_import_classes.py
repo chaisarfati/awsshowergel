@@ -16,7 +16,7 @@ def find_python_files(directory):
     return python_files
 
 
-def get_resource_to_class_map():
+def build_resource_to_class_map():
     resource_classes = {}
 
     # Iterate over Python files in the resource directory

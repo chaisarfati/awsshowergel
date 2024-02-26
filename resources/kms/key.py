@@ -1,8 +1,8 @@
-from resources.base_resources import BaseArn
+from resources.base_resources import BaseAwsResource
 from resources.kms.alias import alias
 
 
-class key(BaseArn):
+class key(BaseAwsResource):
     DEPENDENT_ON_RESOURCES = [alias]
 
     def __init__(self, arn):

@@ -1,11 +1,11 @@
 import json
 import subprocess
 
-from resources.base_resources import BaseArn
+from resources.base_resources import BaseAwsResource
 from resources.ec2.internetgateway import internetgateway
 
 
-class subnet(BaseArn):
+class subnet(BaseAwsResource):
     DEPENDENT_ON_RESOURCES = [internetgateway]
 
     def __init__(self, arn):

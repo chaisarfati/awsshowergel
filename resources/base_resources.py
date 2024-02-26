@@ -2,7 +2,7 @@ import re
 import subprocess
 
 
-class BaseArn:
+class BaseAwsResource:
 
     def __init__(self, arn):
         self.arn = arn
@@ -26,9 +26,17 @@ class BaseArn:
     def delete_resource(self):
         self.preliminary_work()
         deletion_command = f"aws {self.deletion_method} {self.object_identifier}"
-        print(subprocess.run(deletion_command, shell=True))
+        print(f"Deleting {self._class_name()}:{self.resource_id}.......", end="")
+        cmd_result = subprocess.run(deletion_command, shell=True)
+        if cmd_result.returncode == 0:
+            print("Success!")
+        else:
+            print(f"Failure during deletion. {cmd_result}")
 
     # This method would include tasks to performs before being able to delete the resource. Indeed, some
     # resources require such preliminary tasks (e.g. ec2:internet-gateway first detaches from its vpc)
     def preliminary_work(self):
         pass
+
+    def _class_name(self):
+        return type(self).__name__

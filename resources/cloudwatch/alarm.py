@@ -1,7 +1,7 @@
-from resources.base_resources import BaseArn
+from resources.base_resources import BaseAwsResource
 
 
-class alarm(BaseArn):
+class alarm(BaseAwsResource):
     def __init__(self, arn):
         super().__init__(arn)
         self.deletion_method = "cloudwatch delete-alarms --alarm-names"

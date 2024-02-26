@@ -5,25 +5,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea780825-7e8d-4998-887a-50623cdd1740" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/awsshowergel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arn_retriever.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli_argument_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency_resolver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_import_classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource_deleter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/base_resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/kms/alias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/s3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/s3/s3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sqs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sqs/sqs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arn_retriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/arn_retriever.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_argument_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli_argument_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic_import_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_import_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource_deleter.py" beforeDir="false" afterPath="$PROJECT_DIR$/resource_deleter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/acm/certificate.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/acm/certificate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/athena/workgroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/athena/workgroup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/backup/recoverypoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/backup/recoverypoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/base_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/base_resources.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cloudformation/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cloudformation/stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cloudformation/stackset.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cloudformation/stackset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cloudfront/distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cloudfront/distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cloudtrail/trail.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cloudtrail/trail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cloudwatch/alarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cloudwatch/alarm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/codebuild/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/codebuild/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/dynamodb/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/dynamodb/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/customergateway.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/customergateway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/elasticip.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/elasticip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/fleet.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/fleet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/instance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/internetgateway.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/internetgateway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/keypair.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/keypair.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/launchtemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/launchtemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/natgateway.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/natgateway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/networkacl.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/networkacl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/networkinsights-path.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/networkinsights-path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/networkinterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/networkinterface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/routetable.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/routetable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/securitygroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/securitygroup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/snapshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/snapshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/subnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/subnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/transitgateway-attachment.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/transitgateway-attachment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/transitgateway.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/transitgateway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/volume.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/volume.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/vpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/vpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/vpcendpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/vpcendpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/vpcpeeringconnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/vpcpeeringconnection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/vpnconnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/vpnconnection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ec2/vpngateway.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ec2/vpngateway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ecr/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ecr/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ecs/addon.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ecs/addon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ecs/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ecs/cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ecs/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ecs/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ecs/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ecs/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ecs/taskdefinition.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ecs/taskdefinition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/eks/addon.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/eks/addon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/eks/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/eks/cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/eks/nodegroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/eks/nodegroup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/elasticfilesystem/access-point.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/elasticfilesystem/access-point.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/elasticfilesystem/file-system.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/elasticfilesystem/file-system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/elasticloadbalancing/listener-rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/elasticloadbalancing/listener-rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/elasticloadbalancing/listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/elasticloadbalancing/listener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/elasticloadbalancing/loadbalancer.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/elasticloadbalancing/loadbalancer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/elasticloadbalancing/targetgroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/elasticloadbalancing/targetgroup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/events/rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/events/rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/glue/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/glue/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/iam/instance-profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/iam/instance-profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/iam/oidcprovider.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/iam/oidcprovider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/iam/policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/iam/policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/iam/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/iam/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/inspector/target.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/inspector/target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/kms/alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/kms/alias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/kms/key.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/kms/key.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lambda/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lambda/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/logs/loggroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/logs/loggroup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/payments/payment-instrument.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/payments/payment-instrument.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/rds/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/rds/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/rds/dbinstance.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/rds/dbinstance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/rds/dbsubnetgroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/rds/dbsubnetgroup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/rds/pg.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/rds/pg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/rds/snapshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/rds/snapshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/rds/subgrp.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/rds/subgrp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/route53/healthcheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/route53/healthcheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/route53/hostedzone.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/route53/hostedzone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/s3/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/s3/s3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/secretsmanager/secret.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/secretsmanager/secret.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/servicediscovery/namespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/servicediscovery/namespace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sns/topic.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sns/topic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sqs/sqs.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sqs/sqs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ssm/document.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ssm/document.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ssm/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ssm/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/states/stateMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/states/stateMachine.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +119,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/chai.sarfati/PycharmProjects/awsshowergel/resources/route53",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -113,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708339493312</updated>
-      <workItem from="1708339556236" duration="85260000" />
+      <workItem from="1708339556236" duration="92628000" />
     </task>
     <servers />
   </component>

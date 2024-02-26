@@ -10,7 +10,7 @@ class CliArguments:
         self.auto_approve = self._init_auto_approve()
         self.only_delete_filtered_ids = self._init_only_delete_filtered_ids()
         self.dry_run = self._init_dry_run()
-        self.print_deletion_filters()
+        self._print_deletion_filters()
 
     def _parse_arguments(self):
         self._parser.add_argument('--tag-filters', nargs='+', metavar=('KEY=VALUE'), action='append', help="Tag filters")
@@ -29,11 +29,11 @@ class CliArguments:
                 tag_filters_tuple_list.append((key, value))
         return tag_filters_tuple_list
 
-    def print_deletion_filters(self):
+    def _print_deletion_filters(self):
         if self.dry_run:
             print("Running in DRY RUN mode... Noting will be deleted")
 
-        print(f".......Planning to delete AWS resources with tags: {self.tag_filters_tuple_list}\n")
+        print(f".......Planning to delete AWS resources with tags: {self.tag_filters_tuple_list}")
         print(f".......Planning to delete AWS resources with IDs matching regex: {self.id_filters_map}\n")
 
     def _init_id_filers_map(self):

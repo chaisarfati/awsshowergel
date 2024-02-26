@@ -1,10 +1,10 @@
 import json
 import subprocess
-from resources.base_resources import BaseArn
+from resources.base_resources import BaseAwsResource
 from resources.ec2.natgateway import natgateway
 
 
-class internetgateway(BaseArn):
+class internetgateway(BaseAwsResource):
     DEPENDENT_ON_RESOURCES = [natgateway]
 
     def __init__(self, arn):
