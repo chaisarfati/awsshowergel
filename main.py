@@ -4,6 +4,8 @@ import dependency_resolver
 import dynamic_import_classes
 import resource_deleter
 
+__version__ = 'v0.1.0'
+
 # Parse the arguments of the command line
 cli_args = cli_argument_parser.CliArguments()
 

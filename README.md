@@ -1,4 +1,6 @@
-# awsshowergel
+<p align="center">
+  <h2 align="center">AWSshowergel</h2>
+</p>
 
 awsshowergel is a command-line tool for managing AWS resources with ease and simplicity.
 
